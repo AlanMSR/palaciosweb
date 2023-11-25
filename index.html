@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Archivos PDF</title>
+</head>
+<body style="background-color:#d2e0e9;">
+    <div id="banner">
+        <img src="linux.png" id = "banner-img">
+        <div id="banner-texto">
+          Equipo 6
+        </div>
+        <img src="escudo-actualizado-2022.png" id = "banner-img">
+    </div>
+
+    <div>
+        <div class="seccion" id="roger">
+            <button class="nombre-boton" onclick="toggleLista('lista_roger')">Roger</button>
+            <ul id="lista_roger"></ul>
+        </div>
+        <div class="seccion" id="roberto">
+            <button class="nombre-boton" onclick="toggleLista('lista_roberto')">Roberto</button>
+            <ul id="lista_roberto"></ul>
+        </div>
+        <div class="seccion" id="labs">
+            <button class="nombre-boton" onclick="toggleLista('lista_labs')">Laboratorios</button>
+            <ul id="lista_labs"></ul>
+        </div>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
