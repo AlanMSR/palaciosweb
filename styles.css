@@ -6,16 +6,16 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
+  border-radius: 10px;
 }
 
 #banner-img {
   max-width: 10%;
   align-self: right;
-  /*height: auto;*/
 }
 
 #banner-texto {
-  font-size: 1.8em;
+  font-size: 2.0em;
   color: #333;
   text-align: center;
 }
@@ -29,6 +29,9 @@ body {
   margin-bottom: 30px;
   display: inline-block;
   justify-content: space-between;
+  flex: 1;
+  border: 2px solid #654321;
+  padding: 10px;
 }
 
 .seccion:hover ul {
@@ -64,6 +67,12 @@ a {
 
 .visible {
   max-height: 200px;
+}
+
+.secciones-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
 }
 
 /* Estilos para pantallas más pequeñas */
