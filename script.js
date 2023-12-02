@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
           const link = document.createElement('a');
           link.href = `${carpeta}/${archivo}`;
           link.textContent = archivo;
-          link.setAttribute('download', ''); // Añadir el atributo download
+          //link.setAttribute('download', ''); // Añadir el atributo download
           listItem.appendChild(link);
           lista.appendChild(listItem);
         });
